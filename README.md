@@ -1,29 +1,28 @@
-# Testes automatizados com Cypress - Básico
+# 🔼 Cypress, do Zero a Nuvem ☁
 
-👋 Seja bem-vindo(a)!
+Um projeto simples de "Cypress, do Zero a Nuvem" do curso de CAT da escola online.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pré- requisitos
 
-## O que você vai aprender
+É obrigatório que você tenha o git, Node.jd e npm instalados para clonar e rodar o projeto.
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+> Eu usei as versões `2.42.1`, `v20,13,1` e `10.8.1` do git, Node.js e npm. Sugiro que você use as mesmas versões ou mais atualizadas.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+## Instalação
 
-## Vamos começar?
+Run `npm install` (ou `npm i` para versão mais curta) para instalar as dependências.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Testes
 
-___
+Nesse projeto, você deve rodar os testes no desktop ou mobile viewport.
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+### Desktop
+
+Run `npm test` (ou `npm t` na versão mais curta) para executar um teste no modo headless em uma janela de visualização de desktop.
+
+### Mobile
+
+Run `npm run test:mobile`, para rodar os testes em modo headless ou na visualização de mobile.
+
+
+👻Esse projeto, foi feito por Andrey, no curso de Cypress da Udemy.
